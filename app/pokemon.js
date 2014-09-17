@@ -7,7 +7,7 @@ pokemonApp.controller('PokemonController', function($scope, $http){
         .success(function(results){
             $scope.pokemon = results;
         })
-		.failure(function(){
+		.error(function(){
 			alert('ruh roh');	
 		});
 
