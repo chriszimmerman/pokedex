@@ -27,6 +27,6 @@ pokemonApp.controller('PokemonController', function($scope, $http){
 //            alert("this worked");
         });
 
-    $scope.pokemon = [{num: 1}, {num: 2}, {num: 3}];
+    //$scope.pokemon = [{num: 1}, {num: 2}, {num: 3}];
  //   alert("we got here");
 });
