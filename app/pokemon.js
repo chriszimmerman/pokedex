@@ -21,12 +21,12 @@ pokemonApp.controller('PokemonCtrl', function ($scope, PokemonFactory){
 pokemonApp.controller('PokemonController', function($scope, $http){
     $scope.pokemon = [];
 
-    $http.get('pkmn.json')
+    $http.get('app/pkmn.json')
         .success(function(results){
             $scope.pokemon = results;
-//            alert("this worked");
+            alert("this worked");
         });
 
     //$scope.pokemon = [{num: 1}, {num: 2}, {num: 3}];
- //   alert("we got here");
+    alert("we got here");
 });
